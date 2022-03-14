@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-base);
+}
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+}
+nav{
+    position: absolute;
+    padding: 30px;
+}
+body{
+    background: var(--background);
+}
+section{
+    display: flex;
+}
+.w-50{
+    width: 50%;
+}
+.page-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caixa-form{
+    background-color: var(--form-background);
+    width: 80%;
+    height: 60%;
+    border-radius: 8px;
+}
+.divInput{
+    margin: 20px 0px;
+    position:relative;
+    display: block;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.formLogin{
+    height: 80%;
+    margin: 10% 20%;
+}
+.final-form{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background: var(--primary-color);
+    color: var(--form-background);
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+    border-style: none;
+}
+.color-yellow{
+    color: var(--primary-color);
+}
+a{
+    color: var(--primary-color);
+    font-weight: 700;
+    text-decoration: none;
+}
+.form-img{
+    background: url(./images/side-image.jpg);
+    background-size: cover;
+}
+.form-img div{
+    height: 100vh;
+}
+.w-100{
+    width: 100%;
+}
+.input-form{
+    background: var(--form-background);
+    border: 1px solid var(--text-base);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    outline: 0;
+}
+.centro{
+    text-align: center;
+}
+.input-form:focus{
+    border: 2px solid var(--primary-color);
+}
+label span{
+    display: flex;
+}
+span img{
+    position: absolute;
+}
+.icon{
+    position: absolute;
+    left: 10px;
+    bottom: 32px;
+}
+.icon-2{
+    position: absolute;
+    right: 30px;
+    bottom: 32px;
+}
+[type="checkbox"].input-form{
+    width: 15px;
+    height: 15px;
+}

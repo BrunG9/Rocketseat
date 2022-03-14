@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-base);
+}
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+}
+
+body{
+    background: var(--background);
+}
+nav{
+    position: absolute;
+    padding: 30px;
+}
+section{
+    display: flex;
+}
+.w-50{
+    width: 50%;
+}
+
+
+
+.formLogin{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.page-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divInput{
+    display: flex;
+    margin: 10px 0px;
+    justify-content: center;
+    flex-direction: column;
+}
+.final-form{
+    display: flex;
+    justify-content: space-evenly;
+}
+.color-yellow{
+    color: var(--primary-color);
+}
+a{
+    color: var(--primary-color);
+    font-weight: 700;
+}
+button{
+    background: var(--primary-color);
+    color: var(--form-background);
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+    border-style: none;
+}
+.caixa-form{
+    background: var(--form-background);
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+}
+.form-img{
+    background: url(./images/side-image.jpg);
+    background-size: cover;
+}
+.form-img div{
+    height: 100vh;
+}
