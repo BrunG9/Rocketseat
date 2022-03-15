@@ -70,7 +70,7 @@ a{
     text-decoration: none;
 }
 .form-img{
-    background: url(./images/side-image.jpg);
+    background: url(../images/side-image.jpg);
     background-size: cover;
 }
 .form-img div{
