@@ -52,7 +52,7 @@ section{
     display: flex;
     justify-content: space-between;
 }
-button{
+.inp-submit{
     background: var(--primary-color);
     color: var(--form-background);
     width: 100%;
@@ -60,6 +60,8 @@ button{
     padding: 10px;
     font-weight: 700;
     border-style: none;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
 .color-yellow{
     color: var(--primary-color);
@@ -90,6 +92,7 @@ a{
 }
 .centro{
     text-align: center;
+    margin-top: 20px;
 }
 .input-form:focus{
     border: 2px solid var(--primary-color);
